@@ -184,7 +184,7 @@ dd {
 
 table {
   width: 100%;
-  min-width: 820px;
+  min-width: 960px;
   border-collapse: collapse;
 }
 
@@ -217,11 +217,16 @@ th:nth-child(2) {
 
 td:nth-child(3),
 th:nth-child(3) {
-  width: 130px;
+  width: 150px;
 }
 
 td:nth-child(4),
 th:nth-child(4) {
+  width: 130px;
+}
+
+td:nth-child(5),
+th:nth-child(5) {
   width: 190px;
 }
 
