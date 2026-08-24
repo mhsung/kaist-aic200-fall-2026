@@ -184,14 +184,14 @@ dd {
 
 table {
   width: 100%;
-  min-width: 960px;
+  min-width: 880px;
   border-collapse: collapse;
 }
 
 th,
 td {
   border-bottom: 1px solid var(--line);
-  padding: 16px 14px;
+  padding: 16px 12px;
   text-align: left;
   vertical-align: top;
 }
@@ -217,12 +217,12 @@ th:nth-child(2) {
 
 td:nth-child(3),
 th:nth-child(3) {
-  width: 150px;
+  width: 105px;
 }
 
 td:nth-child(4),
 th:nth-child(4) {
-  width: 130px;
+  width: 105px;
 }
 
 td:nth-child(5),
