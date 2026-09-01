@@ -142,10 +142,26 @@ dd {
 .name-list {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 10px 28px;
+  gap: 16px 28px;
   max-width: 560px;
   margin-bottom: 0;
   padding-left: 18px;
+}
+
+.name-list li {
+  min-width: 0;
+}
+
+.teaching-assistant {
+  display: block;
+  margin-top: 2px;
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.teaching-assistant a {
+  color: var(--accent);
+  overflow-wrap: anywhere;
 }
 
 .large-text {
